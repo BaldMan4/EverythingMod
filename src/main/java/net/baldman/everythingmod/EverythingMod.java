@@ -19,7 +19,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-// The value here should match an entry in the META-INF/neoforge.mods.toml file
+// The value here should match an entry in the META-INF/neoforge.neoforge.mods.toml file
 @Mod(EverythingMod.MOD_ID)
 public class EverythingMod {
     public static final String MOD_ID = "everythingmod";

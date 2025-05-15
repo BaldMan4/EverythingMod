@@ -39,6 +39,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        basicItem(ModItems.COPPER_HORSE_ARMOR.get());
+        basicItem(ModItems.EMERALD_HORSE_ARMOR.get());
+        basicItem(ModItems.NETHERITE_HORSE_ARMOR.get());
+
         trimmedArmorItem(ModItems.COPPER_BOOTS);
         trimmedArmorItem(ModItems.COPPER_LEGGINGS);
         trimmedArmorItem(ModItems.COPPER_CHESTPLATE);

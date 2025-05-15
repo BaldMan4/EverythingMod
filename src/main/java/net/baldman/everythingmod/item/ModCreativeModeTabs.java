@@ -57,6 +57,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_SWORD);
                         output.accept(ModItems.EMERALD_AXE);
 
+                        output.accept(ModItems.COPPER_HORSE_ARMOR);
+                        output.accept(ModItems.EMERALD_HORSE_ARMOR);
+                        output.accept(ModItems.NETHERITE_HORSE_ARMOR);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

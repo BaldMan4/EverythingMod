@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-15T17:37:05.3715143	Item Models: everythingmod
+// 1.21.1	2025-05-15T20:33:33.9578068	Item Models: everythingmod
 b4171dd1f57f3c4fba77a499c9361605816e08ab assets/everythingmod/models/item/copper_axe.json
 4d1d274e25f4961b6df2a292c8f7ae7519f85a39 assets/everythingmod/models/item/copper_boots.json
 41ec870dae56dc6230dc7d69bbb4fb0cd28dcad6 assets/everythingmod/models/item/copper_boots_amethyst_trim.json
@@ -34,6 +34,7 @@ d5b04431ac1c4c0268971c61584a5779bad3d76c assets/everythingmod/models/item/copper
 f9c760a40d3e5599f538e72dac0ec1187db57ce2 assets/everythingmod/models/item/copper_helmet_quartz_trim.json
 285274e4d03f11031ce7af34552917beabd195a3 assets/everythingmod/models/item/copper_helmet_redstone_trim.json
 8bb5c51706bc3684e2e0d5824b3f0450ecd8e175 assets/everythingmod/models/item/copper_hoe.json
+e607db5b8cd4b6eb252f38a40098eb19d98d6bb8 assets/everythingmod/models/item/copper_horse_armor.json
 f4beadb83a92321bd7c01b214d1d62152995e946 assets/everythingmod/models/item/copper_leggings.json
 01c686e681b3c8181befa9eeed7ef000ac192f20 assets/everythingmod/models/item/copper_leggings_amethyst_trim.json
 c089f33d21dae92e39c5ec412b886ac65cef50d3 assets/everythingmod/models/item/copper_leggings_copper_trim.json
@@ -83,6 +84,7 @@ d0c0cf535134ed59c8cbbd5964db968309d0cc8a assets/everythingmod/models/item/emeral
 a4e8465aef7c163b9544841e6ae29142f597f64a assets/everythingmod/models/item/emerald_helmet_quartz_trim.json
 806d50ad9871be52c60e87d55c1645867450c9b8 assets/everythingmod/models/item/emerald_helmet_redstone_trim.json
 f96c0afe8b5675905a8224669e08a3e3241cb274 assets/everythingmod/models/item/emerald_hoe.json
+4d11d2bfa8c8a3b92cc403827eab487635abbec6 assets/everythingmod/models/item/emerald_horse_armor.json
 72e5db13f1f103d0254e3c5c6cb5d1969fd8e2b5 assets/everythingmod/models/item/emerald_leggings.json
 841674487acd382be83cab93ae5448e31b4ee4f3 assets/everythingmod/models/item/emerald_leggings_amethyst_trim.json
 7a01683a36a26d8d0b4596aa1424ccaa5f554ea5 assets/everythingmod/models/item/emerald_leggings_copper_trim.json
@@ -97,3 +99,4 @@ dd0e9bd132c33b75248df0991d63c375f5e904d4 assets/everythingmod/models/item/emeral
 314e55813bc8a87117f3640d2e2fb0ff89596d00 assets/everythingmod/models/item/emerald_pickaxe.json
 c49dc52bc9e0678df82861408c30896e7e50cb08 assets/everythingmod/models/item/emerald_shovel.json
 bddcbf971036c10f2f3fa96f19c5abea0991e44a assets/everythingmod/models/item/emerald_sword.json
+9e7801de48c715c4c8d79b8a6af9d774014de7be assets/everythingmod/models/item/netherite_horse_armor.json

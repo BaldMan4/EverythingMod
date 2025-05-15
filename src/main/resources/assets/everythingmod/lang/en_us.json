@@ -21,6 +21,10 @@
   "item.everythingmod.emerald_axe": "Emerald Axe",
   "item.everythingmod.emerald_hoe": "Emerald Hoe",
 
+  "item.everythingmod.copper_horse_armor": "Copper Horse Armor",
+  "item.everythingmod.emerald_horse_armor": "Emerald Horse Armor",
+  "item.everythingmod.netherite_horse_armor": "Netherite Horse Armor",
+
   "creativetab.everythingmod.combat": "Everything Mod - Combat",
 
   "creativetab.everythingmod.tools_and_utilities": "Everything Mod - Tools & Utilities"

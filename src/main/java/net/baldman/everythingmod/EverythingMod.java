@@ -74,6 +74,10 @@ public class EverythingMod {
             event.accept(ModItems.EMERALD_LEGGINGS);
             event.accept(ModItems.EMERALD_BOOTS);
 
+            event.accept(ModItems.COPPER_HORSE_ARMOR);
+            event.accept(ModItems.EMERALD_HORSE_ARMOR);
+            event.accept(ModItems.NETHERITE_HORSE_ARMOR);
+
         }
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

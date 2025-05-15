@@ -204,12 +204,5 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("A A")
                 .define('A', Items.NETHERITE_INGOT)
                 .unlockedBy("has_netherite", has(Items.NETHERITE_INGOT)).save(recipeOutput);
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.LEAD)
-                .pattern("AA ")
-                .pattern("AA ")
-                .pattern("  A")
-                .define('A', Items.STRING)
-                .unlockedBy("has_string", has(Items.STRING)).save(recipeOutput);
     }
 }

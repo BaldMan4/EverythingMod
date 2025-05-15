@@ -1,1 +1,5 @@
-// 1.21.1	2025-05-14T21:04:15.9586599	Tags for minecraft:block mod id everythingmod
+// 1.21.1	2025-05-15T17:37:05.3715143	Tags for minecraft:block mod id everythingmod
+ef4ae4620ceb9f4e2c3104b40fbe1b9eba6ca375 data/everythingmod/tags/block/incorrect_for_copper_tool.json
+40062ac8b59073d549eb544c44bf5dc6a394be0f data/everythingmod/tags/block/incorrect_for_emerald_tool.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/everythingmod/tags/block/needs_copper_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/everythingmod/tags/block/needs_emerald_tool.json

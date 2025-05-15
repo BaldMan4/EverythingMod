@@ -23,55 +23,138 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         //shaped
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_HELMET.get())
-                .pattern("XXX")
-                .pattern("X X")
-                .define('X', Items.COPPER_INGOT)
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.COPPER_INGOT)
                 .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_CHESTPLATE.get())
-                .pattern("X X")
-                .pattern("XXX")
-                .pattern("XXX")
-                .define('X', Items.COPPER_INGOT)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.COPPER_INGOT)
                 .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_LEGGINGS.get())
-                .pattern("XXX")
-                .pattern("X X")
-                .pattern("X X")
-                .define('X', Items.COPPER_INGOT)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.COPPER_INGOT)
                 .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_BOOTS.get())
-                .pattern("X X")
-                .pattern("X X")
-                .define('X', Items.COPPER_INGOT)
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.COPPER_INGOT)
                 .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET.get())
-                .pattern("XXX")
-                .pattern("X X")
-                .define('X', Items.EMERALD)
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.EMERALD)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_CHESTPLATE.get())
-                .pattern("X X")
-                .pattern("XXX")
-                .pattern("XXX")
-                .define('X', Items.EMERALD)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.EMERALD)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_LEGGINGS.get())
-                .pattern("XXX")
-                .pattern("X X")
-                .pattern("X X")
-                .define('X', Items.EMERALD)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.EMERALD)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS.get())
-                .pattern("X X")
-                .pattern("X X")
-                .define('X', Items.EMERALD)
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.EMERALD)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.COPPER_SWORD.get())
+                .pattern("A")
+                .pattern("A")
+                .pattern("B")
+                .define('A', Items.COPPER_INGOT)
+                .define('B', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_SHOVEL.get())
+                .pattern("A")
+                .pattern("B")
+                .pattern("B")
+                .define('A', Items.COPPER_INGOT)
+                .define('B', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', Items.COPPER_INGOT)
+                .define('B', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_AXE.get())
+                .pattern("AA")
+                .pattern("AB")
+                .pattern(" B")
+                .define('A', Items.COPPER_INGOT)
+                .define('B', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.COPPER_HOE.get())
+                .pattern("AA")
+                .pattern(" B")
+                .pattern(" B")
+                .define('A', Items.COPPER_INGOT)
+                .define('B', Items.STICK)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SWORD.get())
+                .pattern("A")
+                .pattern("A")
+                .pattern("B")
+                .define('A', Items.EMERALD)
+                .define('B', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL.get())
+                .pattern("A")
+                .pattern("B")
+                .pattern("B")
+                .define('A', Items.EMERALD)
+                .define('B', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('A', Items.EMERALD)
+                .define('B', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_AXE.get())
+                .pattern("AA")
+                .pattern("AB")
+                .pattern(" B")
+                .define('A', Items.EMERALD)
+                .define('B', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HOE.get())
+                .pattern("AA")
+                .pattern(" B")
+                .pattern(" B")
+                .define('A', Items.EMERALD)
+                .define('B', Items.STICK)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
     }
 }

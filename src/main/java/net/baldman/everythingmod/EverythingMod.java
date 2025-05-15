@@ -56,6 +56,14 @@ public class EverythingMod {
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
 
+            event.accept(ModItems.COPPER_SWORD);
+
+            event.accept(ModItems.EMERALD_SWORD);
+
+            event.accept(ModItems.COPPER_AXE);
+
+            event.accept(ModItems.EMERALD_AXE);
+
             event.accept(ModItems.COPPER_BOOTS);
             event.accept(ModItems.COPPER_LEGGINGS);
             event.accept(ModItems.COPPER_CHESTPLATE);
@@ -66,6 +74,18 @@ public class EverythingMod {
             event.accept(ModItems.EMERALD_LEGGINGS);
             event.accept(ModItems.EMERALD_BOOTS);
 
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.COPPER_SHOVEL);
+            event.accept(ModItems.COPPER_PICKAXE);
+            event.accept(ModItems.COPPER_AXE);
+            event.accept(ModItems.COPPER_HOE);
+
+            event.accept(ModItems.EMERALD_SHOVEL);
+            event.accept(ModItems.EMERALD_PICKAXE);
+            event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.EMERALD_HOE);
         }
     }
 

@@ -31,5 +31,25 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.EMERALD_LEGGINGS.get())
                 .add(ModItems.EMERALD_CHESTPLATE.get())
                 .add(ModItems.EMERALD_HELMET.get());
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.COPPER_SWORD.get())
+                .add(ModItems.EMERALD_SWORD.get());
+
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.COPPER_SHOVEL.get())
+                .add(ModItems.EMERALD_SHOVEL.get());
+
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.COPPER_PICKAXE.get())
+                .add(ModItems.EMERALD_PICKAXE.get());
+
+        tag(ItemTags.AXES)
+                .add(ModItems.COPPER_AXE.get())
+                .add(ModItems.EMERALD_AXE.get());
+
+        tag(ItemTags.HOES)
+                .add(ModItems.COPPER_HOE.get())
+                .add(ModItems.EMERALD_HOE.get());
     }
 }

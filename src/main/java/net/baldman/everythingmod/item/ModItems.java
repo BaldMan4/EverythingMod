@@ -1,8 +1,7 @@
 package net.baldman.everythingmod.item;
 
 import net.baldman.everythingmod.EverythingMod;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -45,6 +44,38 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties()
                             .durability(ArmorItem.Type.BOOTS.getDurability(24))));
+
+    public static final DeferredItem<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword",
+            () -> new SwordItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.COPPER, 3, -2.0F))));
+    public static final DeferredItem<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",
+            () -> new ShovelItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.COPPER, 1.5F, -2.6F))));
+    public static final DeferredItem<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.COPPER, 1.0F, -2.4F))));
+    public static final DeferredItem<AxeItem> COPPER_AXE = ITEMS.register("copper_axe",
+            () -> new AxeItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.COPPER, 6.0F, -2.7F))));
+    public static final DeferredItem<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe",
+            () -> new HoeItem(ModToolTiers.COPPER, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.COPPER, -1.0F, -0.6F))));
+
+    public static final DeferredItem<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword",
+            () -> new SwordItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.EMERALD, 3, -2.4F))));
+    public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
+            () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTiers.EMERALD, 1.5F, -2.3F))));
+    public static final DeferredItem<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.EMERALD, 1.0F, -3.0F))));
+    public static final DeferredItem<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe",
+            () -> new AxeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTiers.EMERALD, 6.0F, -3.0F))));
+    public static final DeferredItem<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe",
+            () -> new HoeItem(ModToolTiers.EMERALD, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTiers.EMERALD, -2.5F, -0.5F))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

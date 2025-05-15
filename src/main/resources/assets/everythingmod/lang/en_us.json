@@ -9,5 +9,19 @@
   "item.everythingmod.emerald_chestplate": "Emerald Chestplate",
   "item.everythingmod.emerald_helmet": "Emerald Helmet",
 
-  "creativetab.everythingmod.combat": "Everything Mod - Combat"
+  "item.everythingmod.copper_sword": "Copper Sword",
+  "item.everythingmod.copper_shovel": "Copper Shovel",
+  "item.everythingmod.copper_pickaxe": "Copper Pickaxe",
+  "item.everythingmod.copper_axe": "Copper Axe",
+  "item.everythingmod.copper_hoe": "Copper Hoe",
+
+  "item.everythingmod.emerald_sword": "Emerald Sword",
+  "item.everythingmod.emerald_shovel": "Emerald Shovel",
+  "item.everythingmod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.everythingmod.emerald_axe": "Emerald Axe",
+  "item.everythingmod.emerald_hoe": "Emerald Hoe",
+
+  "creativetab.everythingmod.combat": "Everything Mod - Combat",
+
+  "creativetab.everythingmod.tools_and_utilities": "Everything Mod - Tools & Utilities"
 }

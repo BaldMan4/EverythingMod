@@ -1,2 +1,7 @@
-// 1.21.1	2025-05-15T15:54:20.4433455	Tags for minecraft:item mod id everythingmod
+// 1.21.1	2025-05-15T17:37:05.3695018	Tags for minecraft:item mod id everythingmod
+c334f91bfcc357c7a009d8adf0e19d8de57a33f6 data/minecraft/tags/item/axes.json
+acdeeeba4e42ef70b573c40434eb0b7d8995b225 data/minecraft/tags/item/hoes.json
+b9ba9be9b427dcf664a4578efc78ca43ce493dd9 data/minecraft/tags/item/pickaxes.json
+7c11276a794bd089b6729b5922796d59eb11673d data/minecraft/tags/item/shovels.json
+3bde70d7b8a47caf1555c6ae37556c3d64c53300 data/minecraft/tags/item/swords.json
 7d4f7bf075b156359ff3f3e889a250cd23fb26b4 data/minecraft/tags/item/trimmable_armor.json

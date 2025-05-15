@@ -2,5 +2,7 @@
   "item.everythingmod.copper_boots": "Copper Boots",
   "item.everythingmod.copper_leggings": "Copper Leggings",
   "item.everythingmod.copper_chestplate": "Copper Chestplate",
-  "item.everythingmod.copper_helmet": "Copper Helmet"
+  "item.everythingmod.copper_helmet": "Copper Helmet",
+
+  "creativetab.everythingmod.mod_items": "Mod Items"
 }

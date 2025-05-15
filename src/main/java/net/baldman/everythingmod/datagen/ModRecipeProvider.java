@@ -156,5 +156,60 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', Items.STICK)
                 .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, Items.SADDLE)
+                .pattern(" A ")
+                .pattern("ABA")
+                .define('A', Items.LEATHER)
+                .define('B', Items.IRON_INGOT)
+                .unlockedBy("has_leather", has(Items.LEATHER)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, Items.IRON_HORSE_ARMOR)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.IRON_INGOT)
+                .unlockedBy("has_iron", has(Items.IRON_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, Items.GOLDEN_HORSE_ARMOR)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.GOLD_INGOT)
+                .unlockedBy("has_gold", has(Items.GOLD_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, Items.DIAMOND_HORSE_ARMOR)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.DIAMOND)
+                .unlockedBy("has_diamond", has(Items.DIAMOND)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, ModItems.COPPER_HORSE_ARMOR.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.COPPER_INGOT)
+                .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, ModItems.EMERALD_HORSE_ARMOR.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, ModItems.NETHERITE_HORSE_ARMOR.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.NETHERITE_INGOT)
+                .unlockedBy("has_netherite", has(Items.NETHERITE_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.LEAD)
+                .pattern("AA ")
+                .pattern("AA ")
+                .pattern("  A")
+                .define('A', Items.STRING)
+                .unlockedBy("has_string", has(Items.STRING)).save(recipeOutput);
     }
 }

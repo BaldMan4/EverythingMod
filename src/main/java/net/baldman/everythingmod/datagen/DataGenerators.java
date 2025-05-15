@@ -13,6 +13,7 @@ import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = EverythingMod.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
+
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
@@ -26,8 +27,6 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput, lookupProvider));
 
         generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-
-
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
     }
 }

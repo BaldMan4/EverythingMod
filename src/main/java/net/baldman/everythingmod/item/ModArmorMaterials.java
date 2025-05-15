@@ -22,12 +22,20 @@ public class ModArmorMaterials {
     public static final Holder<ArmorMaterial> COPPER_ARMOR_MATERIAL = register("copper",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
                 attribute.put(ArmorItem.Type.BOOTS, 2);
-                attribute.put(ArmorItem.Type.LEGGINGS, 3);
+                attribute.put(ArmorItem.Type.LEGGINGS, 4);
                 attribute.put(ArmorItem.Type.CHESTPLATE, 5);
                 attribute.put(ArmorItem.Type.HELMET, 2);
                 attribute.put(ArmorItem.Type.BODY, 4);
             }), 20, 0.0F, 0.0F, () -> Items.COPPER_INGOT);
 
+    public static final Holder<ArmorMaterial> EMERALD_ARMOR_MATERIAL = register("emerald",
+            Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 3);
+                attribute.put(ArmorItem.Type.LEGGINGS, 6);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 7);
+                attribute.put(ArmorItem.Type.HELMET, 3);
+                attribute.put(ArmorItem.Type.BODY, 8);
+            }), 10, 1.0F, 0.0F, () -> Items.EMERALD);
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,

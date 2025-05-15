@@ -4,5 +4,10 @@
   "item.everythingmod.copper_chestplate": "Copper Chestplate",
   "item.everythingmod.copper_helmet": "Copper Helmet",
 
-  "creativetab.everythingmod.mod_items": "Mod Items"
+  "item.everythingmod.emerald_boots": "Emerald Boots",
+  "item.everythingmod.emerald_leggings": "Emerald Leggings",
+  "item.everythingmod.emerald_chestplate": "Emerald Chestplate",
+  "item.everythingmod.emerald_helmet": "Emerald Helmet",
+
+  "creativetab.everythingmod.combat": "Everything Mod - Combat"
 }

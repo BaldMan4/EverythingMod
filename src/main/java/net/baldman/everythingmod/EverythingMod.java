@@ -55,10 +55,17 @@ public class EverythingMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+
             event.accept(ModItems.COPPER_BOOTS);
             event.accept(ModItems.COPPER_LEGGINGS);
             event.accept(ModItems.COPPER_CHESTPLATE);
             event.accept(ModItems.COPPER_HELMET);
+
+            event.accept(ModItems.EMERALD_HELMET);
+            event.accept(ModItems.EMERALD_CHESTPLATE);
+            event.accept(ModItems.EMERALD_LEGGINGS);
+            event.accept(ModItems.EMERALD_BOOTS);
+
         }
     }
 

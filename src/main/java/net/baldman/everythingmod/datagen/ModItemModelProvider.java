@@ -42,6 +42,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.COPPER_LEGGINGS);
         trimmedArmorItem(ModItems.COPPER_CHESTPLATE);
         trimmedArmorItem(ModItems.COPPER_HELMET);
+
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
     }
 
     // Shoutout to El_Redstoniano for making this

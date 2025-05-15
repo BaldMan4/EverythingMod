@@ -14,16 +14,21 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EverythingMod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> MOD_ITEMS_TAB = CREATIVE_MODE_TAB.register("mod_items_tab",
+    public static final Supplier<CreativeModeTab> EVERYTHING_MOD_COMBAT_TAB = CREATIVE_MODE_TAB.register("everything_mod_combat_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.COPPER_HELMET.get()))
-                    .title(Component.translatable("creativetab.everythingmod.mod_items"))
+                    .title(Component.translatable("creativetab.everythingmod.combat"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModItems.COPPER_HELMET);
                         output.accept(ModItems.COPPER_CHESTPLATE);
                         output.accept(ModItems.COPPER_LEGGINGS);
                         output.accept(ModItems.COPPER_BOOTS);
+
+                        output.accept(ModItems.EMERALD_HELMET);
+                        output.accept(ModItems.EMERALD_CHESTPLATE);
+                        output.accept(ModItems.EMERALD_LEGGINGS);
+                        output.accept(ModItems.EMERALD_BOOTS);
 
                     }).build());
 

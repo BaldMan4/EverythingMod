@@ -25,6 +25,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.COPPER_BOOTS.get())
                 .add(ModItems.COPPER_LEGGINGS.get())
                 .add(ModItems.COPPER_CHESTPLATE.get())
-                .add(ModItems.COPPER_HELMET.get());
+                .add(ModItems.COPPER_HELMET.get())
+
+                .add(ModItems.EMERALD_BOOTS.get())
+                .add(ModItems.EMERALD_LEGGINGS.get())
+                .add(ModItems.EMERALD_CHESTPLATE.get())
+                .add(ModItems.EMERALD_HELMET.get());
     }
 }

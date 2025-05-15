@@ -47,5 +47,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("X X")
                 .define('X', Items.COPPER_INGOT)
                 .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET.get())
+                .pattern("XXX")
+                .pattern("X X")
+                .define('X', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_CHESTPLATE.get())
+                .pattern("X X")
+                .pattern("XXX")
+                .pattern("XXX")
+                .define('X', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_LEGGINGS.get())
+                .pattern("XXX")
+                .pattern("X X")
+                .pattern("X X")
+                .define('X', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS.get())
+                .pattern("X X")
+                .pattern("X X")
+                .define('X', Items.EMERALD)
+                .unlockedBy("has_emerald", has(Items.EMERALD)).save(recipeOutput);
     }
 }
